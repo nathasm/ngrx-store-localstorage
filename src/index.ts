@@ -1,4 +1,5 @@
-import {provide, Provider} from 'angular2/core';
+import 'rxjs/add/operator/do';
+import {provide, Provider} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {POST_MIDDLEWARE, INITIAL_STATE} from '@ngrx/store';
 
